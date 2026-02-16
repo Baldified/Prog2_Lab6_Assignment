@@ -1,0 +1,4 @@
+The differences between the 2 solutions are that in the first solution, main.java, it uses the scanner inputs to create a 2d arraylist and uses one utility class to verify the result of query check by checking if row and col are either less than 0 or out of bounds from the arraylist size.
+In the second solution, altmain.java, you create an arraylist using the scanner inputs, but then use the JaggedIntMatrix class to make that arraylist final so that it cannot be modified again, then you use the QueryResult class to print results after checking if the chosen row and col are null or not.
+
+Overall, Main doesn't turn the 2D ArrayList into final so that it cannot be modified again like AltMain and it doesn't use separate classes to check results and print results.
