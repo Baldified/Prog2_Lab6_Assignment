@@ -29,5 +29,6 @@ public class Main {
             int y = input.nextInt() - 1;
             Utils.checkQuery(x, y);
         }
+        input.close();
     }
 }
